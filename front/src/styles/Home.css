@@ -1,0 +1,94 @@
+.icon{
+    font-size:48px;
+    position:relative;
+    top:10px;
+}
+body{
+    background: #e0eff7;
+    
+}
+
+.section{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    padding-top:35px;
+}
+.grid-card{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-template-rows: repeat(4, 1fr); */
+        grid-column-gap: 20px;
+        grid-row-gap: 10px;
+        margin-top:20px;
+        
+    
+}
+.card{
+    /* background: linear-gradient(45deg, #03A9F4 85%, #2196F3 22%, #212121 10%); */
+    background: linear-gradient(45deg, #2196F3 20%, #212121 100%);
+    width:400px;
+    margin-bottom:15px;
+    /* margin-top:10px; */
+    border-radius:15px;
+    box-shadow: 1px 1px 12px -2px #000000;
+    cursor:pointer;
+    
+}
+.card h3{
+    text-align:center;
+    border-bottom:1px solid #FFF;
+    position:relative;
+    color:white;
+    bottom:10px;
+    text-transform: uppercase;
+}
+.card p{
+    margin-left:15px;
+    color:white;
+    font-size:18px;
+    bottom:15px;
+    position:relative;
+}
+#deleteButton {
+    color:white;
+    background-color:red;
+    border-radius:1px;
+    margin:0;
+    padding:0px;
+    font-size:25px;
+    float:right;
+    padding-left:7px;
+    padding-right:7px;
+    border-bottom-right-radius:15px ;
+    border-top-left-radius:15px ;
+    transition:0.5s;
+    outline:none;
+    
+}
+#deleteButton:hover{
+    color:red;
+    background-color:white;
+    transition:0.5s;
+    outline:none;
+}
+.toast-notification p{
+    text-align:center;
+}
+.toast-notification button {
+/* margin-left:15px; */
+font-size:16px;
+border-radius:5px;
+padding:5px;
+color:black;
+
+}
+.toast-notification button:nth-child(1){
+    background-color:reD;
+    color:white;
+}
+.toast-notification .botonera{
+    display:flex;
+    justify-content:space-evenly;
+}
