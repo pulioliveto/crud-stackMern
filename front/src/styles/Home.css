@@ -4,8 +4,8 @@
     top:10px;
 }
 body{
-    /* background: #e0eff7; */
-    background: red;
+    background: #e0eff7;
+    /* background: red; */
 }
 
 .section{
@@ -31,7 +31,7 @@ body{
     width:400px;
     margin-bottom:15px;
     /* margin-top:10px; */
-    border-radius:15px;
+    /* border-radius:15px; */
     box-shadow: 1px 1px 12px -2px #000000;
     cursor:pointer;
     

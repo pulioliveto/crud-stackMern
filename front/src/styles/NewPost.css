@@ -39,7 +39,7 @@ button{
     border:1px solid #536DFE;
     transition:0.5s;
 }
-input{
+input, textarea{
     outline:none;
     padding:10px;
     width:50%;

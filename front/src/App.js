@@ -19,6 +19,7 @@ function App() {
         
         <Route path="/" element={<Home />} />
         <Route path="/new" element={<NewPost />} />
+        <Route path="/posts/:id" element={<NewPost />} />
 
         <Route path="*" element={<NotFound />} />
         
